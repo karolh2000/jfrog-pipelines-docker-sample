@@ -51,7 +51,7 @@ pipelines:
         type: DockerPush
         configuration:
           affinityGroup: dbp_group
-          targetRepository: slack-docker-local
+          targetRepository: slack-test-local
           integrations:
             - name: art_test_karol                            # <-- replace with your artifactory integration
           inputSteps:
