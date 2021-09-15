@@ -11,8 +11,8 @@ resources:
     type: Image
     configuration:
       registry: art_test_karol                                # <-- replace with your artifactory integration
-      sourceRepository: slack-test-local               # <-- required if registry is Artifactory
-      imageName: partnership.jfrog.io/slack-test-local/dbp  # < -- replace with your image path and name
+      sourceRepository: slack-test-local                      # <-- required if registry is Artifactory
+      imageName: partnership.jfrog.io/slack-test-local/dbp     # < -- replace with your image path and name
       imageTag: latest
       autoPull: true
       
